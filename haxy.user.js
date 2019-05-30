@@ -1,24 +1,24 @@
 // ==UserScript==
-// @name         Krunker Skript
-// @version      1.0
+// @name         [IusiSkript] Krunker Aimbot/ESP/Auto Reload 28 May 2019 | UNDETECED AS IT RUNS THROUGH A BYPASS SCRIPT |
+// @version      4.2
 // @author       IusiSkript
 // @include      /^(https?:\/\/)?(www\.)?(.+)krunker\.io(|\/|\/\?(game|server|party)=.+)$/
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
 // @require      https://code.jquery.com/jquery-3.3.1.min.js
-// @namespace gpy
+// @namespace IusiSkript
 // ==/UserScript==
 
 window.stop();
 document.innerHTML = "";
 
-// * * * * * * * * * * * * * * * * 
-// * * * * * * * * * * * * * * * * 
+// * * * * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * *
 
 const version = '1.2';
 
-// * * * * * * * * * * * * * * * * 
-// * * * * * * * * * * * * * * * * 
+// * * * * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * *
 
 GM_xmlhttpRequest({
     method: "GET",
