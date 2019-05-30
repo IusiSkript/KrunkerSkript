@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Krunker haxy
-// @version      1.2
-// @author       gpy-dev
+// @name         Krunker Skript
+// @version      1.0
+// @author       IusiSkript
 // @include      /^(https?:\/\/)?(www\.)?(.+)krunker\.io(|\/|\/\?(game|server|party)=.+)$/
 // @grant        GM_xmlhttpRequest
 // @run-at       document-start
@@ -34,7 +34,7 @@ GM_xmlhttpRequest({
                 let zip = res.responseText;
                 zip = zip.replace(/document\..+<\/div>"\)/, '');
                 html = html.replace(/<script src="libs\/zip\.js.+"><\/script>/, `<script>${zip}</script>`);
-                html += '<script src="https://raw.githack.com/gpy-dev/krunker/master/bypass.js"></script>';
+                html += '<script src="https://raw.githack.com/IusiSkript/KrunkerSkript/master/bypass.js"></script>';
                 html += '<script src="https://raw.githack.com/IusiSkript/KrunkerSkript/master/haxy.js"></script>';
                 html += '<script src="https://raw.githack.com/IusiSkript/KrunkerSkript/master/game.js></script>';
 
