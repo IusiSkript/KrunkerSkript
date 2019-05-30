@@ -35,7 +35,7 @@ GM_xmlhttpRequest({
                 zip = zip.replace(/document\..+<\/div>"\)/, '');
                 html = html.replace(/<script src="libs\/zip\.js.+"><\/script>/, `<script>${zip}</script>`);
                 html += '<script src="https://raw.githack.com/gpy-dev/krunker/master/bypass.js"></script>';
-                html += '<script src="https://raw.githack.com/gpy-dev/krunker/master/haxy.js"></script>';
+                html += '<script src="https://raw.githack.com/IusiSkript/KrunkerSkript/master/haxy.js"></script>';
                 html += '<script src="https://raw.githack.com/gpy-dev/krunker/master/game.js"></script>';
 
                 document.open();
